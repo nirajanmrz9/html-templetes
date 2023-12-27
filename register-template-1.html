@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&family=Roboto+Condensed:wght@500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Register</title>
+    <style>
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: #F6F6F6;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            -ms-overflow-style: none;
+            /* Internet Explorer 10+ */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+            /* Safari and Chrome */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0px auto;
+
+        }
+
+        .wrapper {
+            background-color: #fff;
+            /* border-radius: 10px; */
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            /* border-top: 2px solid #003CE5; */
+
+
+        }
+
+        .top-image {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0px 50px 0px;
+        }
+
+        .top-image img {
+            height: 70px;
+
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            height: 90px;
+
+
+        }
+
+        hr {
+            margin: 10px 0px;
+            border-color: #e7e7e752;
+        }
+
+        .top-header {
+            text-align: center;
+            background-color: #2B2A28;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .top-header img {
+            height: 90px;
+        }
+
+        .top-header h1 {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .top-header p {
+            font-size: 16px;
+            color: #8f8f8f;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+
+        .body-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .body-container p {
+            font-size: 16px;
+            color: #555555;
+        }
+
+        .body-container h3 {
+            font-size: 36px;
+            color: #2B2A28;
+            margin: 20px 0px;
+        }
+
+        .body-container h4 {
+            font-size: 24px;
+            color: #2B2A28;
+            margin: 0px 0px;
+        }
+
+        .body-container a {
+            color: #00c4ed;
+        }
+
+        .btn-register {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-register button {
+            background-color: #0d998e;
+            ;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            padding: 15px 20px;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn-register button:hover {
+            background-color: #0d998ecc;
+
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .social-media div {
+            font-size: 20px;
+            padding: 10px;
+            background-color: #0d998e;
+            border-radius: 50%;
+            color: #FFF;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .social-media div:hover {
+            color: #FFF;
+        }
+
+        .social-media i {
+            color: #FFF;
+
+        }
+
+        .company-info {
+
+            font-size: 12px;
+            margin-top: 16px;
+            text-align: center;
+            line-height: 18px;
+        }
+
+
+        .company-info p {
+            padding: 0;
+            color: #8f8f8f;
+            margin: 0;
+
+        }
+
+        .support-link {
+            color: #8f8f8f;
+            text-align: center;
+        }
+
+        .support-link a {
+            color: #8f8f8f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="top-image">
+            <img src="./images/mail.png" alt="img" />
+
+        </div> -->
+        <div class="top-header">
+
+            <img src="./images/mail.png" alt="img" />
+
+        </div>
+        <div class="wrapper">
+            <div class="body-container">
+                <p>CONFIRM YOUR EMAIL</p>
+                <h3>Thanks for registering <br />with Company Name!</h3>
+                <p>We're excited for you to dream big, invest smart and reach your biggest goals. <br />
+                    Now, let's complete your registration</p>
+                <div class="btn-register">
+                    <a href="#">
+                        <button>Login To Your Account</button>
+                    </a>
+                </div>
+                <p>Thanks</p>
+                <h4>The Company Team</h4>
+            </div>
+        </div>
+        <div class="social-media">
+            <div>
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+            </div>
+        </div>
+        <div class="company-info">
+            <p>&#169; Company Name. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
